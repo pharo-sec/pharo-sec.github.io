@@ -7,11 +7,14 @@ tags: [oscp,linux]
 
 # Exfiltrated Overview
 
-Machine Details:
+## Machine Details
 
 |IP|Hostname|Operating System|
 |---|---|---|
 |192.168.x.163|Exfiltrated|Linux|
+
+## Path to Exploitation
+This is a Linux machine running an HTTP server and has SSH available. We will identify the vulnerable web-application and using a publicly available exploit and default credentials we obtain a web-shell and get command execution. Once on the machine we identify a scheduled script that takes uploaded images and executes the exiftools command on them. We can leverage this by uploading a .jpg file with an embedded reverse shell payload.
 
 # Enumeration
 
