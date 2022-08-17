@@ -24,7 +24,7 @@ This is a Linux machine running an HTTP server and has SSH available. We will id
 $ nmap 192.168.109.163 -p- -oA Exfiltrated/nmap/full-port --open -Pn -vv
 ```
 
-Which Resulted in:
+Results:
 
 |PORT|SERVICE|
 |----|-------|
@@ -37,7 +37,7 @@ Which Resulted in:
 $ nmap 192.168.109.163 -p 22,80 -sC -sV -oA Exfiltrated/nmap/service-scan -Pn
 ```
 
-Which Resulted in:
+Results:
 
 |PORT|SERVICE|VERSION|
 |----|-------|-------|
