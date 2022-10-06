@@ -96,6 +96,6 @@ We can try re-using this password with the administrator account using PsExec
 ```shell
 $ python /home/pharo/.local/bin/psexec.py Administrator:"Welcome1\!"@10.10.10.74
 ```
-![Autologon Credentials](/assets/HacktheBox/Chatterbox/priv-esc.png)
+![Privelege Escalations](/assets/HacktheBox/Chatterbox/priv-esc.png)
 
 We can see that we now have a session running as SYSTEM.
