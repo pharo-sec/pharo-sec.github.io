@@ -89,13 +89,14 @@ Checking back on the listener we see we have a shell as alfred
 
 Running winpeas we identify a set of Autologon credentials
 
-![Autologon Credentials](/assets/HacktheBox/Chatterbox/autologon-creds.png)
+![Credentials](/assets/HackTheBox/Chatterbox/autologon-creds.png)
 
 We can try re-using this password with the administrator account using PsExec
 
 ```shell
 $ python /home/pharo/.local/bin/psexec.py Administrator:"Welcome1\!"@10.10.10.74
 ```
-![Privelege Escalations](/assets/HacktheBox/Chatterbox/priv-esc.png)
+
+![Privilege Escalation](/assets/HacktheBox/Chatterbox/priv-esc.png)
 
 We can see that we now have a session running as SYSTEM.
