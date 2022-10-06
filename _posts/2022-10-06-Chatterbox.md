@@ -82,6 +82,7 @@ $ python exploit.py
 ```
 
 Checking back on the listener we see we have a shell as alfred
+
 ![Initial Foothold](/assets/HackTheBox/Chatterbox/initial-foothold.png)
 
 # Privilege Escalation
