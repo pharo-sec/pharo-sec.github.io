@@ -2,7 +2,7 @@
 title: Reconnaissance and Enumeration
 date: 2022-09-27 12:00:00 -500 
 categories: [PenTesting Methodology]
-tags: [oscp,linux,windows,pentesting]
+tags: [pentesting]
 ---
 
 # Reconnaissance and Enumeration
