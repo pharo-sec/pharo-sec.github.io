@@ -4,9 +4,12 @@ jobs:
   tweet:
     runs-on: ubuntu-latest
     steps:
-      - uses: ethomson/send-tweet-action@v1.0.0
+      - uses: actions/checkout@v1
+      - id: log
+        run: echo "::set-env name=POST_COMMIT_MESSAGE::$(git log --no-merges -1 --pretty=%B)"
+      - uses: ethomson/send-tweet-action@v1
         with:
-          status: "NEW POST!"
+          status: "NEW POST: ${% raw %}{{ steps.log.output.message }}{% endraw %}"
           consumer-key: ${% raw %}{{ secrets.TWITTER_CONSUMER_API_KEY }}{% endraw %}
           consumer-secret: ${% raw %}{{ secrets.TWITTER_CONSUMER_API_SECRET }}{% endraw %}
           access-token: ${% raw %}{{ secrets.TWITTER_ACCESS_TOKEN }}{% endraw %}
