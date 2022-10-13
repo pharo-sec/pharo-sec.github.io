@@ -4,7 +4,7 @@ jobs:
   tweet:
     runs-on: ubuntu-latest
     steps:
-      - uses: ethomson/send-tweet-action@v1
+      - uses: uses: ethomson/send-tweet-action@v1.0.0
         with:
           status: "NEW POST!"
           consumer-key: ${% raw %}{{ secrets.TWITTER_CONSUMER_API_KEY }}{% endraw %}
