@@ -1,5 +1,5 @@
 ---
 title: Consulting Services
 icon: fas fa-services
-order: 2
+order: 1
 ---
