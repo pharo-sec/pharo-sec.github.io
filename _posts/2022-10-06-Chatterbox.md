@@ -61,7 +61,7 @@ Which Resulting In:
 
 # Exploiting the AChat Server
 
-I did a simple google search of this AChat service and found a potential exploit that I could use. The [exploit](https://www.exploit-db.com/exploits/36025)is a remote buffer overflow.
+I did a simple google search of this AChat service and found a potential exploit that I could use. The [exploit](https://www.exploit-db.com/exploits/36025) is a remote buffer overflow.
 
 Inside the script we see the command needed to generate the payload
 
