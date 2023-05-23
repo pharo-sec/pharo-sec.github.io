@@ -1,7 +1,7 @@
 ---
 title: Proving Grounds - Bratarina
 date: 2022-09-17 12:00:00 -500 
-categories: [OSCP Prep, Proving Grounds]
+categories: [Proving Grounds]
 tags: [oscp,linux]
 ---
 
