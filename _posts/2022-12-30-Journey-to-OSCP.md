@@ -2,7 +2,7 @@
 title: Journey to OSCP
 date: 2022-12-30 12:00:00 -500 
 categories: [Certifications]
-tags: [oscp]
+tags: [oscp, certifications]
 ---
 # Journey to OSCP
 ## The First Attempt: A Humbling Introduction
